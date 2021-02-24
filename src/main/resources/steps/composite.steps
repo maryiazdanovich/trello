@@ -1,0 +1,18 @@
+Composite: When I log in as an existing user
+
+When I click on an element by the xpath '//a[text()='Log in']'
+When I wait until the page has the title 'Log in to Trello'
+When I change context to an element by the xpath '//*[@id='login-form']'
+When I enter '${UserEmail}' in a field by the xpath '//*[@id='user']' 
+When I click on an element by the xpath '//*[@value='Log in']'
+When I wait until the page has the title 'Log in to continue - Log in with Atlassian account'
+When I change context to an element by the xpath '//*[@class='sc-iAyFgw jTGMge']'
+When I enter '${UserPassword}' in a field by the xpath '//*[@id='password']'
+When I click on an element by the xpath '//*[text()='Log in']'
+
+
+
+Composite: When I navigate to home page
+
+When I change context to the page
+When I click on an element by the xpath '//a[@data-test-id="header-home-button"]'
