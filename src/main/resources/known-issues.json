@@ -1,9 +1,3 @@
 {
-	"TRLL-0001":  {
-        "type": "Internal",
-        "assertionPattern": "Number of elements found by ' XPath: '//*\\[@class='_38hwhHBlt6nX5e'\\]'; Visibility: VISIBLE;' is equal to 8 \\[Expected: number of elements is a value equal to <8> Actual: <9>\\]",
-        "stepPattern": "Then the number of elements found by the xpath .* is equal to .* ",
-        "storyPattern": "Trello.*",
-        "scenarioPattern": "Verify Templates page"
-    }
+	
 }
